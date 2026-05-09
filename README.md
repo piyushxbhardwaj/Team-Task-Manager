@@ -2,6 +2,19 @@
 
 A professional, full-stack task management application with role-based access control, built for high-performance team collaboration.
 
+---
+
+## 💎 Engineering Highlights
+What makes this project standout at a professional level:
+- **Security-First Backend**: Implemented `rate-limiting`, `helmet` security headers, and `NoSQL injection` sanitization.
+- **Role-Based Access Control (RBAC)**: Distinct, protected workflows for Admins and Members using custom middleware.
+- **Production-Ready Architecture**: Modular **Controller-Route-Model** pattern in the backend and a centralized **API Service Layer** in the frontend.
+- **Observability**: Dedicated **Health Check** endpoint and centralized error handling.
+- **Modern UX**: Subtle Glassmorphic UI with loading states, empty states, and responsive layout.
+- **Automation**: One-click **Database Seeding** for instant demonstration.
+
+---
+
 ## 🚀 Key Features
 - **Authentication**: Secure Signup/Login using JWT and cookies.
 - **Role-Based Access Control (RBAC)**: Distinct permissions for Admins and Members.

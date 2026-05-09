@@ -8,6 +8,11 @@ A professional, full-stack task management application with role-based access co
 - **Project Management**: Create and manage projects (Admin only for creation).
 - **Task Management**: Create, assign, and track task status.
 - **Dashboard**: Real-time stats including total tasks, status breakdown, and **overdue task detection**.
+- **Security**: 
+    - **Rate Limiting**: Protects against brute-force attacks.
+    - **Security Headers**: Uses `helmet` for secure HTTP headers.
+    - **Data Sanitization**: Prevents NoSQL injection attacks.
+- **Health Check**: Dedicated `/api/health` endpoint for monitoring.
 - **Modern UI**: Premium dark-mode aesthetic with subtle glassmorphism and smooth animations.
 - **Responsive Design**: Fully optimized for mobile and desktop.
 

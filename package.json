@@ -1,0 +1,9 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "scripts": {
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "start-server": "cd server && npm start",
+    "start-client": "cd client && npm run dev"
+  }
+}
